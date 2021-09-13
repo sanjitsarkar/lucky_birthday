@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0c2a42;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+form#form {
+  border-radius: 5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 2rem 4rem;
+  margin: auto;
+  background: white;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.383);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.383);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1rem;
+}
+
+form#form button,
+form#form input {
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.7rem;
+}
+
+form#form input {
+  background: rgba(12, 42, 66, 0.137);
+}
+
+form#form button {
+  cursor: pointer;
+  background: #0c2a42;
+  color: white;
+}
+
+form#form p {
+  text-align: center;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
