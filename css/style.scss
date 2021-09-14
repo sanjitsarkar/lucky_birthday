@@ -51,13 +51,9 @@ form#form {
   }
 }
 footer#footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   padding: 1rem;
   background: rgb(255, 255, 255);
-  margin-top: 3rem;
+  margin-top: 26vh;
   .title_secondary {
     color: $primaryColor;
     margin: 0;
