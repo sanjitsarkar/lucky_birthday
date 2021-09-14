@@ -5,9 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+$primaryColor: rgb(12, 42, 66);
 body {
-  background: rgb(12, 42, 66);
+  background: $primaryColor;
 }
 h1 {
   text-align: center;
@@ -42,11 +42,64 @@ form#form {
 
   button {
     cursor: pointer;
-    background: rgb(12, 42, 66);
+    background: $primaryColor;
     color: white;
   }
   p {
     text-align: center;
     text-transform: uppercase;
+  }
+}
+footer#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgb(255, 255, 255);
+  margin-top: 3rem;
+  .title_secondary {
+    color: $primaryColor;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 700px) {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+
+    li {
+      a {
+        img {
+          width: 2rem;
+          height: 2rem;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        // .twitter
+        // {
+        //     background: url("../img/icons/twitter.svg");
+        // }
+        // .linkedin
+        // {
+
+        // }
+        // .github
+        // {
+
+        // }
+        // .codepen
+        // {
+
+        // }
+      }
+    }
   }
 }
