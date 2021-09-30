@@ -4,7 +4,8 @@
 - Clone the repo with this command
 
     ```bash
-    git clone https://github.com/sanjitsarkar/stock_price
+    git clone https://github.com/sanjitsarkar/lucky_birthday
+    ```
 - Open the `index.html` file in browser to preview it.
 
 #### To live preview the app click the link [Lucky Birthday](https://xluckybirthday.netlify.app/)
